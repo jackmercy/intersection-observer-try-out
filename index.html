@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Intersection Observer</title>
+    <link rel="stylesheet" href="style.css" />
+    <script defer src="app.js"></script>
+  </head>
+  <body>
+    <nav class="navbar">
+      <ul>
+        <li><a class="tab" href="#home">Section 1</a></li>
+        <li><a class="tab" href="#services">Section 2</a></li>
+        <li><a class="tab" href="#about">Section 3</a></li>
+      </ul>
+    </nav>
+    <section class="welcome-text">
+      <h1>Welcome to Intersection Observer API</h1>
+      <p>Aliquam facilisis dictum nibh. Sed ipsum libero, aliquam quis convallis at, porta eu nunc.</p>
+    </section>
+
+    <section class="grid-appear list-stagger">
+      <div class="col-item">
+        <img src="assets/img1.png" alt="img1" width="80" height="80" />
+        <h2>Lorem ipsum dolor</h2>
+        <p>
+          Morbi elementum mi a erat auctor tempor. In mollis fringilla metus eu mollis. Vestibulum et urna eleifend sapien semper
+          vestibulum. Vestibulum vel sapien auctor
+        </p>
+      </div>
+
+      <div class="col-item">
+        <img src="assets/img2.png" alt="img2" width="80" height="80" />
+        <h2>Lorem ipsum dolor</h2>
+        <p>Morbi elementum mi a erat auctor tempor. In mollis fringilla metus eu mollis</p>
+      </div>
+
+      <div class="col-item">
+        <img src="assets/img3.png" alt="img1" width="80" height="80" />
+        <h2>Lorem ipsum dolor</h2>
+        <p>
+          Quisque faucibus urna ante, eu convallis mi elementum nec. Duis sed ipsum lacinia, pulvinar quam condimentum, varius dolor. Cras
+          efficitur porttitor lacus sed molestie. Phasellus eu enim vel justo luctus rhoncus.
+        </p>
+      </div>
+    </section>
+
+    <section class="grid-pop-out">
+      <div class="col-item go-to-docs">
+        <h1>Lorem ipsum dolor</h1>
+        <p>
+          Morbi elementum mi a erat auctor tempor. In mollis fringilla metus eu mollis. Vestibulum et urna eleifend sapien semper
+          vestibulum. Vestibulum vel sapien auctor
+        </p>
+        <a class="glow-on-hover" href="https://developer.mozilla.org/en-US/docs/Web/API/Intersection_Observer_API" target="_blank">
+          Go to Docs
+        </a>
+      </div>
+
+      <div class="row-item phone-container">
+        <div  class="phone">
+          <img src="assets/imgp1.png" width="215" height="456">
+        </div>
+        <div class="pop-out left">
+          <img  src="assets/imgp2.png" width="77" height="77">
+        </div>
+        <div class="pop-out right">
+          <img  src="assets/imgp3.png" width="98" height="98">
+        </div>
+      </div>
+    </section>
+
+  </body>
+</html>
